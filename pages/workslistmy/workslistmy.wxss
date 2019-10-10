@@ -1,0 +1,19 @@
+.workslistCon { background-color:#f2f2f2; }
+
+.workslistCon .workslistUl { width:100%; height:auto; margin-top:20rpx; }
+.workslistCon .workslistUl .workslistUlScroll { width:750rpx; height:1000rpx; }
+.workslistCon .workslistUl .workslistLi { float:left; width:345rpx; height:435rpx; background-color:#ffffff; box-shadow:0 0 6rpx rgba(0,0,0,0.5); position:relative; margin:0 0 20rpx 20rpx; }
+.workslistCon .workslistUl .workslistLi .workslistLiImg { width:345rpx; height:345rpx; overflow:hidden; }
+.workslistCon .workslistUl .workslistLi .workslistLiImg .img { width:345rpx; height:345rpx; }
+.workslistCon .workslistUl .workslistLi .workslistLiH3 { position:absolute; top:295rpx; left:0; width:100%; height:50rpx; padding:0 20rpx; box-sizing:border-box; background-color:rgba(0,0,0,0.6); line-height:50rpx; font-size:22rpx; color:#ffffff; overflow:hidden; }
+.workslistCon .workslistUl .workslistLi .workslistLiH3 .em { font-size:20rpx; }
+.workslistCon .workslistUl .workslistLi .workslistLiH6 { width:100%; height:auto; padding:20rpx 20rpx 0 20rpx; box-sizing:border-box; overflow:hidden; }
+.workslistCon .workslistUl .workslistLi .workslistLiH6 .img { display:block; float:left; width:50rpx; height:50rpx; border-radius:100%; background-color:#eee; overflow:hidden; }
+.workslistCon .workslistUl .workslistLi .workslistLiH6Name { display:block; float:left; line-height:50rpx; font-size:24rpx; margin-left:20rpx; color:#8a8a8a; }
+.workslistCon .workslistUl .workslistLi .workslistLiDelete { position:absolute; right:0; top:0; width:24rpx; height:auto; padding:10rpx; }
+.workslistCon .workslistUl .workslistLi .workslistLiDelete .img { width:24rpx; height:auto; }
+
+.workslistCon .workslisHb { width:100%; height:auto; line-height:600rpx; text-align:center; font-size:36rpx; color:#666; }
+
+.workslistCon .workslistPainting { position:fixed; right:10rpx; bottom:130rpx; width:100rpx; height:100rpx; background-color:#ff9600; font-size:22rpx; color:#fff; line-height:1.4; border-radius:100%; box-sizing:border-box; padding:18rpx 20rpx 0 20rpx; letter-spacing:5rpx; text-align:center; overflow:hidden; }
+

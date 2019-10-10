@@ -1,0 +1,37 @@
+.worksdetailsCon { background-color:#f2f2f2; overflow-x:hidden; overflow-y:auto; }
+.worksdetailsCon .worksdetailsHead { width:690rpx; height:120rpx; background-color:#fff; margin:30rpx auto 0 auto; }
+.worksdetailsCon .worksdetailsHead .img { display:block; float:left; width:120rpx; height:120rpx; background-color:#8a8a8a; margin-right:20rpx; overflow:hidden; }
+.worksdetailsCon .worksdetailsHead .worksdetailsHeadb { font-size:26rpx; color:#8a8a8a; line-height:1.6; padding-top:20rpx; }
+.worksdetailsCon .worksdetailsHead .worksdetailsHeadb .h5 { color:#ff9600; font-weight:bold; }
+.worksdetailsCon .worksdetailsHead .worksdetailsHeadp { font-size:26rpx; color:#8a8a8a; line-height:1.6; }
+
+.worksdetailsCon .worksdetailsCanvas { width:690rpx; height:920rpx; margin:30rpx auto 0 auto; background-color:#fff; position:relative; overflow:hidden; }
+.worksdetailsCon .worksdetailsCanvas .img { width:690rpx; height:920rpx; }
+.worksdetailsCon .worksdetailsCanvas .worksdetailsCanvasH6 { position:absolute; right:0; top:0; width:auto; height:80rpx; line-height:80rpx; background-color:rgba(0,0,0,0.6); padding:0 30rpx; font-size:24rpx; color:#fff; }
+
+.worksdetailsCon .worksdetailsEvent { width:690rpx; height:80rpx; margin:30rpx auto 0 auto; }
+.worksdetailsCon .worksdetailsEvent .worksdetailsEventText { float:left; line-height:80rpx; width:215rpx; height:80rpx; background-color:#ff9600; text-align:center; font-size:24rpx; color:#fff; margin-right:22.5rpx; }
+.worksdetailsCon .worksdetailsEvent .worksdetailsEventC { margin-right:0; }
+
+.worksdetailsCon .worksdetailsMsg { width:690rpx; height:28rpx; margin:30rpx auto 0 auto; font-size:24rpx; color:#666666; }
+.worksdetailsCon .worksdetailsMsg .em { color:#f00; }
+
+.worksdetailsCon .worksdetailsForm { width:750rpx; height:100rpx; background-color:#fff; box-sizing:border-box; padding:10rpx 30rpx 0 30rpx; box-shadow:0 0 5rpx rgba(0,0,0,0.1); margin-top:15rpx; line-height:80rpx; }
+.worksdetailsCon .worksdetailsForm input { display:block; float:left; width:455rpx; height:80rpx; font-size:24rpx; color:#333; }
+.worksdetailsCon .worksdetailsForm .worksdetailsFormA { float:right; width:215rpx; height:80rpx; background-color:#ff9600; text-align:center; font-size:24rpx; color:#fff; }
+
+.worksdetailsCon .worksdetailsBbs { width:690rpx; height:auto; margin:0 auto; }
+.worksdetailsCon .worksdetailsBbs .worksdetailsBbsLi { float:left; width:100%; height:80rpx; border-bottom:1rpx solid #8a8a8a; margin-top:20rpx; overflow:hidden; }
+.worksdetailsCon .worksdetailsBbs .worksdetailsBbsLi .img { display:block; float:left; width:50rpx; height:50rpx; background-color:#8a8a8a; margin-top:10rpx; margin-right:20rpx; border-radius:100%; overflow:hidden; }
+.worksdetailsCon .worksdetailsBbs .worksdetailsBbsLi .worksdetailsBbsLiName { font-size:18rpx; color:#555555; line-height:1.4; padding-top:8rpx; }
+.worksdetailsCon .worksdetailsBbs .worksdetailsBbsLi .worksdetailsBbsLiMsg { font-size:18rpx; color:#8a8a8a; line-height:1.4; }
+.worksdetailsCon .worksdetailsBbs .worksdetailsBbsLi:last-child { border-bottom:none; }
+
+.worksdetailsCon .worksdetailsBbs .theoryScroll { width:690rpx; height:100%; }
+
+
+
+
+
+
+

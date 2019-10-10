@@ -1,0 +1,28 @@
+.adminhrefIco { background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAtCAYAAACqCZtVAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAOlJREFUeNq011sOgyAQBVB60210aS6hC/LbLXQT5U9XVEwwscpjHpdJJiiQEzOihMc8z1MIYQnkQMo15XsEvKX8snHkNrJxnK6pOC73NByFPgqOSr8bR2PMhaMzbsYhmGPCIZynxqF4CBUOZenEOAwvXITDuEy7OBwfVxOH85dQxb1wFWfARZwF3/AneauLuZ0Q+LHjrxHwXooPBqB7nTcMQCNzVfyhLPiGMuAi6oWrqAduola4i1pgEaqFxagGVqFSWI1KYBPag81oC3ahNdiNlmAKeoVp6Bmmogc8sdFj+1/z6ZQaPwEGAJ85VzkCY1ezAAAAAElFTkSuQmCC); }
+
+.adminCon { background-color:#f2f2f2; overflow-x:hidden; overflow-y:auto; }
+.adminCon .adminHead { width:750rpx; height:380rpx; background-color:#ff9600; text-align:center; }
+.adminCon .adminHead .img { width:140rpx; height:140rpx; background-color:#8a8a8a; margin:60rpx auto 0 auto; border-radius:100%; }
+.adminCon .adminHead .name { width:100%; height:50rpx; margin:20rpx auto 0 auto; font-size:30rpx; color:#fff; font-weight:bold; }
+.adminCon .adminHead .msg { width:100%; height:auto; font-size:26rpx; color:#555;}
+.adminCon .adminHead .msg .em { color:#f00; padding:0 3rpx; }
+
+.adminCon .adminIsWorks { width:100%; height:90rpx; box-sizing:border-box; padding:0 30rpx; margin-top:30rpx; background-color:#fff;}
+.adminCon .adminIsWorks .b { float:left; line-height:90rpx; font-size:26rpx; color:#444; }
+.adminCon .adminIsWorks .adminIsWorksDom { float:right; width:80rpx; height:40rpx; padding:5rpx; margin-top:25rpx; box-sizing:border-box; background-color:#ff9600; border-radius:40rpx; }
+.adminCon .adminIsWorks .adminIsWorksDom .em { float:left; width:30rpx; height:30rpx; background-color:#fff; border-radius:100%; transition:all .5s ease 0; -webkit-transition:all .5s ease 0; }
+.adminCon .adminIsWorks .hover { background-color:#8a8a8a; }
+.adminCon .adminIsWorks .hover .em { float:right; }
+
+.adminCon .adminHred { width:100%; height:90rpx; line-height:90rpx; font-size:26rpx; color:#444; box-sizing:border-box; padding:0 30rpx; margin-top:20rpx; background-color:#fff; background-position:700rpx 24rpx; background-repeat:no-repeat; background-size:22rpx auto;}
+
+.adminCon .adminReward { width:750rpx; height:auto; margin:20rpx auto; }
+
+.adminCon .adminNotice { width:100%; height:auto; box-sizing:border-box; padding:20rpx 30rpx; margin-top:30rpx; background-color:#fff; }
+.adminCon .adminNotice .adminNoticeA { display:block; font-size:26rpx; color:#444; padding-bottom:10rpx; }
+.adminCon .adminNotice .adminNoticeB { display:block; font-size:22rpx; color:#666; }
+.adminCon .adminNotice .adminNoticeB p { display:block; width:100%; }
+
+.adminCon .adminCopy { width:100%; height:90rpx; box-sizing:border-box; padding:0 30rpx; margin-top:30rpx; background-color:#fff;}
+.adminCon .adminCopy .adminCopyA { float:left; line-height:90rpx; font-size:26rpx; color:#444; }
+.adminCon .adminCopy .adminCopyB { float:right; width:auto; height:50rpx; line-height:50rpx; padding:0 20rpx; margin-top:20rpx; box-sizing:border-box; background-color:#ff9600; color:#fff; font-size:26rpx; }

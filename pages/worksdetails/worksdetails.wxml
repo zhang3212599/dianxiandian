@@ -1,0 +1,36 @@
+<view class="bodyDivCen worksdetailsCon">
+  <view class='worksdetailsHead'>
+    <image class='img' src='{{ user_Img }}' mode='widthFix'></image>
+    <view class='worksdetailsHeadb'>提示：<text class='h5'>{{ painting_Name }}</text></view>
+    <view class='worksdetailsHeadp'>作者：{{ user_Name }}</view>
+  </view>
+
+  <view class='bodyImgBack worksdetailsCanvas'>
+    <image class='img' src='{{ painting_Img }}' mode='scaleToFill'></image>
+    <view class='worksdetailsCanvasH6'>总共{{ painting_CountStep }}步</view>
+  </view>
+
+  <view class='worksdetailsEvent'>
+    <view class='worksdetailsEventText worksdetailsEventA' bindtap='worksdetailsEventA'>换一个挑战</view>
+    <!-- <view class='worksdetailsEventText worksdetailsEventB' bindtap='worksdetailsEventB'>邀请好友一起</view> -->
+    <button class='worksdetailsEventText worksdetailsEventB' open-type="share">邀请好友一起</button>
+    <view class='worksdetailsEventText worksdetailsEventC' bindtap='worksdetailsEventC'>开始挑战</view>
+  </view>
+
+  <view class='worksdetailsMsg'>已有<text class='em'>{{ painting_StepCountNum }}</text>人参与；<text class='em'>{{ painting_StepNum }}</text>人挑战成功</view>
+
+  <view class='worksdetailsForm'>
+    <input placeholder="最多评论7次哟" focus="{{ focus }}" type='text' maxlength="30" value='{{ inputTxt }}' bindinput="bindKeyInput" />
+    <view class='worksdetailsFormA' bindtap='worksdetailsForm'>发表评论</view>
+  </view>
+
+  <view class='worksdetailsBbs'>
+    <scroll-view id='theoryScroll' class='theoryScroll' style="height:{{ scrollHeight }}px" scroll-y bindscrolltolower="theoryScrollObj" wx:if="{{theoryList.length > 0}}">
+        <view class='worksdetailsBbsLi' wx:for="{{ theoryList }}" wx:key="theoryList" >
+          <image class='img' src='{{ item.coImg }}' mode='widthFix'></image>
+          <view class='worksdetailsBbsLiName'>微信昵称：{{ item.coName }}</view>
+          <view class='worksdetailsBbsLiMsg'>{{ item.coText }}</view>
+        </view>
+    </scroll-view>
+  </view>
+</view>

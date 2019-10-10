@@ -1,0 +1,17 @@
+
+/**index.wxss**/
+.indexCon { background-position:0 0; background-repeat:repeat; }
+.indexCon .index_logo { width:408rpx; height:156rpx; margin:160rpx auto 0 auto; }
+.indexCon .index_logo .img { width:100%; }
+
+.indexCon .index_rule { width:500rpx; height:420rpx; margin:110rpx auto 0 auto; background-color:#ffffff; box-sizing:border-box; padding:45rpx 35rpx; box-shadow:0 0 30rpx #ff9797; overflow:hidden; }
+.indexCon .index_rule .index_ruleH3 { width:100%; font-size:30rpx; color:#333333; padding-bottom:20rpx; text-align:center; }
+.indexCon .index_rule .index_ruleCon_list { width:100%; font-size:22rpx; color:#999999; line-height:2; }
+.indexCon .index_rule .index_ruleCon_list .index_classA { color:#444444; }
+
+.index_navigator { width:400rpx; height:100rpx; line-height:100rpx; background-color:#ff9600; text-align:center; font-size:30rpx; color:#ffffff; border-radius:100rpx; margin:80rpx auto 0 auto; }
+
+
+
+
+

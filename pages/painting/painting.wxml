@@ -1,0 +1,26 @@
+<view class="bodyDivCen bodyImgBack paintingCon">
+    <view class="painting_head">
+      <input placeholder="请输入'7个字内'的提示" type='text' maxlength="7" focus="{{focus}}" bindinput="bindKeyInput" />
+      <text class='djb'>第<text class='djbpadding'>{{ stepNum }}</text>步</text>
+    </view>
+    <view class='painting_canvasA' hidden="{{ canvasDisplay }}">
+      <view class='painting_canvas'>
+        <canvas class='painting_canvasCon' canvas-id="paintingCanvasA" bindtouchstart='onStartCanvasA'></canvas>
+      </view>
+      <view class='painting_footer'>
+        <view class='painting_footerText painting_footerA' bindtap='onResetCanvasA'>清空重来</view>
+        <view class='painting_footerText painting_footerB' bindtap='onEndCanvasA'>后退一步</view>
+        <view class='painting_footerText painting_footerC' bindtap='onLineCanvasA'>开始连线</view>
+      </view>
+    </view>
+    <view class='painting_canvasB' hidden="{{ !canvasDisplay }}">
+      <view class='painting_canvas'>
+        <canvas class='painting_canvasCon' canvas-id="paintingCanvasB" bindtouchstart='onStartCanvasBStart' bindtouchmove='onStartCanvasBMove' bindtouchend='onStartCanvasBEnd'></canvas>
+      </view>
+      <view class='painting_footer'>
+        <view class='painting_footerText painting_footerA' bindtap='onResetCanvasB'>返回描点</view>
+        <view class='painting_footerText painting_footerB' bindtap='onEndCanvasB'>后退一步</view>
+        <view class='painting_footerText painting_footerC' bindtap='onLineCanvasB'>提交绘画</view>
+      </view>
+    </view>
+</view>

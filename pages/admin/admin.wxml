@@ -1,0 +1,28 @@
+<view class="bodyDivCen adminCon">
+  <view class='adminHead'>
+    <image class='img' src='{{ user_ImgUrl }}' mode='widthFix'></image>
+    <view class='name'>{{ user_Name }}</view>
+    <view class='msg'>绘画被挑战<text class='em'>{{ user_Ctcount }}</text>次，被挑战成功<text class='em'>{{ user_CtcountYes }}</text>人</view>
+  </view>
+
+  <view class='adminIsWorks'>
+    <view class='b'>我的绘画“是否”让大家看见</view>
+    <view class='adminIsWorksDom {{ user_PtIs ? "" : "hover" }}' bindtap='onIsWorksDom'><view class='em'></view></view>
+  </view>
+
+  <navigator url="/pages/workslistmy/workslistmy" hover-class="navigator-hover" class='adminhrefIco adminHred'>我的绘画</navigator>
+
+  <navigator url="/pages/workslisthis/workslisthis" hover-class="navigator-hover" class='adminhrefIco adminHred'>我挑战过的绘画</navigator>
+
+    <view class='adminNotice'>
+      <view class='adminNoticeA'>公告：</view>
+      <view class='adminNoticeB'>{{ user_Notice }}</view>
+    </view>
+
+    <view class='adminCopy'>
+      <view class='adminCopyA'>联系作者：</view>
+      <view class='adminCopyB' bindtap='onClipboardData'>复制作者微信号</view>
+    </view>
+
+  <!-- <image class='adminReward' src='../../static/images/dasang.jpg' mode='widthFix'></image> -->
+</view>

@@ -1,0 +1,14 @@
+<view class="bodyDivCen bodyImgBack paintingCon">
+    <view class="painting_head">
+      <text class='h4'>提示：{{ painting_Name }}</text>
+      <text class='djb'>总<text class='djbpadding'>{{ painting_CountNum }}</text>步，点<text class='djbpadding'>{{ painting_StepNum }}</text>步</text>
+    </view>
+    <view class='painting_canvas'>
+      <canvas class='painting_canvasCon' canvas-id="paintingCanvasB" bindtouchstart='onStartCanvasBStart' bindtouchmove='onStartCanvasBMove' bindtouchend='onStartCanvasBEnd'></canvas>
+    </view>
+    <view class='painting_footer'>
+      <view class='painting_footerText painting_footerA' bindtap='onResetCanvasB'>重新再来</view>
+      <view class='painting_footerText painting_footerB' bindtap='onEndCanvasB'>后退一步</view>
+      <view class='painting_footerText painting_footerC' bindtap='onLineCanvasB'>提交</view>
+    </view>
+</view>

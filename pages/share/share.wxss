@@ -1,0 +1,11 @@
+.shareCon { background-color:#f2f2f2; overflow-x:hidden; overflow-y:auto; }
+.shareCon .shareCanvas { width:750rpx; height:1000rpx; background-color:#fff; position:relative; }
+.shareCon .shareCanvas .img { width:750rpx; height:1000rpx; }
+.shareCon .shareCanvas .h6 { position:absolute; right:0; bottom:0; width:100%; height:90rpx; line-height:90rpx; padding:0 30rpx; font-size:26rpx; color:#fff; background-color:rgba(0,0,0,0.6); box-sizing:border-box; text-align:right; }
+.shareCon .shareCanvas .h6 .p { float:left; color:#ff9600; padding-right:20rpx; font-weight:bold; }
+
+.shareCon .sharebutton { width:590rpx; height:100rpx; line-height:100rpx; background-color:#ff9600; border-radius:100rpx; margin:0 auto; text-align:center; font-size:30rpx; color:#fff; }
+.shareCon .sharebuttonA { margin-top:70rpx; }
+.shareCon .sharebuttonB { margin-top:20rpx; }
+
+.shareCon .shareUrlIndex { height:90rpx; text-align:center; font-size:22rpx; color:#999; margin:26rpx auto 0 auto; }

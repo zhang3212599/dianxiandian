@@ -1,0 +1,48 @@
+<view class="bodyDivCen workslistCon">
+  <view class='workslistH3'>
+    <text class='workslistH3b {{navClass ? "active" : ""}}' bindtap='onNavTab'>热门作品</text>
+    <text class='workslistH3b {{!navClass ? "active" : ""}}' bindtap='onNavTab'>最新作品</text>
+  </view>
+
+  <view class='workslistUl' hidden='{{ !navClass }}'>
+    <scroll-view id='workslistUlScrollA' class='workslistUlScroll' style="height:{{ scrollHeight }}px" scroll-y bindscrolltolower="workslistUlScrollA"  wx:if="{{scrollDataA.length > 0}}">
+
+      <view class='workslistLi' wx:for="{{ scrollDataA }}" wx:for-item="scrollDataA" wx:key="scrollDataA">
+        <navigator url="/pages/worksdetails/worksdetails?id={{ scrollDataA.id }}" hover-class="navigator-hover">
+          <view class='bodyImgBack workslistLiImg'><image class='img' src="{{ scrollDataA.ptImg }}" mode="scaleToFill"></image></view>
+          <view class='workslistLiH3'>{{ scrollDataA.ptName }}<text class='em'>(已有{{ scrollDataA.ptCount }}人参与)</text></view>
+          <view class='workslistLiH6'>
+            <image class='img' src="{{ scrollDataA.ptUserimg }}" mode="widthFix"></image>
+            <text class='workslistLiH6Name'>{{ scrollDataA.ptUsername }}</text>
+          </view>
+        </navigator>
+      </view>
+
+    </scroll-view>
+
+    <view class='workslisHb' wx:else>暂无数据</view>
+  </view>
+
+
+
+  <view class='workslistUl' hidden='{{ navClass }}'>
+    <scroll-view id='workslistUlScrollB' class='workslistUlScroll' style="height:{{ scrollHeight }}px" scroll-y bindscrolltolower="workslistUlScrollB" wx:if="{{scrollDataB.length > 0}}">
+
+      <view class='workslistLi' wx:for="{{ scrollDataB }}" wx:for-item="scrollDataB" wx:key="scrollDataB">
+        <navigator url="/pages/worksdetails/worksdetails?id={{ scrollDataB.id }}" hover-class="navigator-hover">
+          <view class='bodyImgBack workslistLiImg'><image class='img' src="{{ scrollDataB.ptImg }}" mode="widthFix"></image></view>
+          <view class='workslistLiH3'>{{ scrollDataB.ptName }}<text class='em'>(已有{{ scrollDataB.ptCount }}人参与)</text></view>
+          <view class='workslistLiH6'>
+            <image class='img' src="{{ scrollDataB.ptUserimg }}" mode="widthFix"></image>
+            <text class='workslistLiH6Name'>{{ scrollDataB.ptUsername }}</text>
+          </view>
+        </navigator>
+      </view>
+
+    </scroll-view>
+    <view class='workslisHb' wx:else>暂无数据</view>
+  </view>
+
+
+  <navigator class="workslistPainting" url="/pages/painting/painting" hover-class="navigator-hover">我要投稿</navigator>
+</view>

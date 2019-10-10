@@ -1,0 +1,13 @@
+<view class="bodyDivCen shareCon">
+  <view class='bodyImgBack shareCanvas'>
+    <image class='img' src='{{ shareImg }}' mode='scaleToFill'></image>
+    <view class='h6'><text class='p'>提示：{{ shareName }}</text>({{ shareDes }})</view>
+  </view>
+
+  <button class='sharebutton sharebuttonA' open-type="share" bindtap='onSharebuttonA'>邀请好友来画线</button>
+  <!--
+  <view class='sharebutton sharebuttonB' bindtap='onSharebuttonB'>下载图片</view>
+-->
+  <navigator class='shareUrlIndex' url="/pages/index/index" open-type='switchTab' hover-class="navigator-hover">回到首页</navigator>
+
+</view>

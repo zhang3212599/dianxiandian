@@ -1,0 +1,15 @@
+<view class="bodyDivCen bodyImgBack indexCon">
+  <view class="index_logo">
+    <image class='img' src="../../static/images/logo.png" mode="widthFix"></image>
+  </view>
+  <view class="index_rule">
+    <view class="index_ruleH3">游戏规则</view>
+    <view class="index_ruleCon_list">1、点击下方按钮<text class="index_classA">“开始描点”</text>；</view>
+    <view class="index_ruleCon_list">2、在画板上<text class="index_classA">描上点点</text>；</view>
+    <view class="index_ruleCon_list">3、点击开始<text class="index_classA">连线</text>；</view>
+    <view class="index_ruleCon_list">4、把点与点通过<text class="index_classA">直线连接</text>成您想要的样子；</view>
+    <view class="index_ruleCon_list">5、<text class="index_classA">完成</text>绘画；</view>
+    <view class="index_ruleCon_list">6、<text class="index_classA">转发</text>朋友圈破解您的绘画；</view>
+  </view>
+  <navigator class="index_navigator" url="/pages/painting/painting" hover-class="navigator-hover">开始描点</navigator>
+</view>
